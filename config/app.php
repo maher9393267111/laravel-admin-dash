@@ -30,6 +30,8 @@ return [
 
     'env' => env('APP_ENV', 'production'),
 
+    'default' => env('DB_CONNECTION', 'pgsql'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Debug Mode
